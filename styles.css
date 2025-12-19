@@ -20,18 +20,21 @@ body {
   position: relative;
   width: 50%;
 
-  /* Scroll animation */
+  /* Start hidden */
   opacity: 0;
-  transform: translateY(40px);
-  animation: reveal linear forwards;
+  transform: translateY(40px) scale(0.95);
+
+  /* Scroll-triggered animation */
+  animation: pop-in linear forwards;
   animation-timeline: view();
   animation-range: entry 20% cover 40%;
 }
 
-@keyframes reveal {
+/* Animation */
+@keyframes pop-in {
   to {
     opacity: 1;
-    transform: translateY(0);
+    transform: translateY(0) scale(1);
   }
 }
 
