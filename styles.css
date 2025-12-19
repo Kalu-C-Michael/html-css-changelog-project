@@ -25,7 +25,7 @@ body {
   transform: translateY(40px) scale(0.95);
 
   /* Scroll-triggered animation */
-  animation: pop-in linear forwards;
+  animation: pop-in 0.8s ease-out forwards;
   animation-timeline: view();
   animation-range: entry 20% cover 40%;
 }
