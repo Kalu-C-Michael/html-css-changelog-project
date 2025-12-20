@@ -19,6 +19,7 @@ img{
 body {
   background: #0f172a;
   color: #e5e7eb;
+  overflow-x: hidden;
 }
 
 /* Hero */
@@ -30,19 +31,20 @@ body {
   background-image: url("hero2.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
 }
 
 .hero h1 {
   font-size: clamp(2.5rem, 8vw, 4rem);
   letter-spacing: 2px;
-  color: #1e3a8a;
+  color: blue;
 }
 
 .tagline {
   font-size: clamp(1.1rem, 4vw, 1.4rem);
   padding: 0 1rem;
   margin: 1rem 0 2rem;
-  color: #1e3a8a;
+  color: blue;
   text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px red;
 }
 
@@ -78,7 +80,7 @@ body {
   background-image: url("everhard-pill.jpg");
   background-repeat: no-repeat;
   background-size: cover;
-  color: #1e3a8a;
+  color: blue;
 }
 
 .section h2 {
@@ -177,5 +179,76 @@ footer {
   footer {
     padding: 1.5rem 1rem;
     font-size: 0.8rem;
+  }
+}
+
+@media (max-width: 480px) {
+
+  /* Base text slightly smaller */
+  html {
+    font-size: 14px;
+  }
+
+  /* Hero */
+  .hero {
+    padding: 2.5rem 1.2rem;
+  }
+
+  .hero h1 {
+    font-size: 2.6rem;
+    letter-spacing: 1px;
+  }
+
+  .tagline {
+    font-size: 1.05rem;
+  }
+
+  .hero button {
+    width: 100%;
+    max-width: 300px;
+    padding: 1rem;
+    font-size: 1rem;
+  }
+
+  /* Sections */
+  .section {
+    width: 92%;
+    padding: 1.6rem;
+    margin: 3.5rem auto;
+    border-radius: 16px;
+
+    /* Reduce horizontal travel */
+    transform: translateX(-35px);
+  }
+
+  .section h2 {
+    font-size: 1.7rem;
+  }
+
+  .section ul {
+    font-size: 1.05rem;
+    line-height: 1.8;
+  }
+
+  /* Cards */
+  .cards {
+    grid-template-columns: 1fr;
+    gap: 1.2rem;
+  }
+
+  .card {
+    padding: 1.3rem;
+    font-size: 1rem;
+  }
+
+  /* Quotes */
+  blockquote {
+    font-size: 1.05rem;
+  }
+
+  /* Footer */
+  footer {
+    font-size: 0.8rem;
+    padding: 1.4rem 1rem;
   }
 }
