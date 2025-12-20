@@ -22,7 +22,7 @@ body {
   overflow-x: hidden;
 }
 
-/* Hero */
+
 .hero {
   min-height: 100vh;
   display: grid;
@@ -58,7 +58,7 @@ body {
   color: #1e3a8a;
 }
 
-/* Sections */
+
 .section {
   max-width: 900px;
   margin: clamp(3rem, 8vw, 6rem) auto;
@@ -100,7 +100,7 @@ body {
   opacity: 0.7;
 }
 
-/* Cards */
+
 .cards {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
@@ -113,7 +113,7 @@ body {
   border-radius: 12px;
 }
 
-/* Quotes */
+
 blockquote {
   margin: 2rem auto;
   font-style: italic;
@@ -127,7 +127,7 @@ blockquote span {
   opacity: 0.7;
 }
 
-/* Footer */
+
 footer {
   background: #020617;
   padding: 2rem;
@@ -189,7 +189,7 @@ footer {
     font-size: 14px;
   }
 
-  /* Hero */
+  
   .hero {
     padding: 2.5rem 1.2rem;
   }
@@ -210,7 +210,7 @@ footer {
     font-size: 1rem;
   }
 
-  /* Sections */
+  
   .section {
     width: 92%;
     padding: 1.6rem;
@@ -230,7 +230,7 @@ footer {
     line-height: 1.8;
   }
 
-  /* Cards */
+  
   .cards {
     grid-template-columns: 1fr;
     gap: 1.2rem;
@@ -241,12 +241,12 @@ footer {
     font-size: 1rem;
   }
 
-  /* Quotes */
+  
   blockquote {
     font-size: 1.05rem;
   }
 
-  /* Footer */
+  
   footer {
     font-size: 0.8rem;
     padding: 1.4rem 1rem;
