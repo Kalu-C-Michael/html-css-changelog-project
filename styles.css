@@ -157,6 +157,7 @@ footer {
 
   .hero {
     padding: 2rem 1rem;
+    background-size: contain;
   }
 
   .hero button {
@@ -192,6 +193,7 @@ footer {
   
   .hero {
     padding: 2.5rem 1.2rem;
+    background-size: contain;
   }
 
   .hero h1 {
