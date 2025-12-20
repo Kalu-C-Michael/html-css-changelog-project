@@ -32,7 +32,6 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  aspect-ratio: 16 / 9;  
 }
 
 .hero h1 {
@@ -158,7 +157,6 @@ footer {
 
   .hero {
     padding: 2rem 1rem;
-    aspect-ratio: 3 / 4;
   }
 
   .hero button {
@@ -194,7 +192,6 @@ footer {
   
   .hero {
     padding: 2.5rem 1.2rem;
-    aspect-ratio: 3 / 4;
   }
 
   .hero h1 {
